@@ -28,7 +28,8 @@ lo configuré con el alias “graph” para que se ejecuten todos los comandos j
 
 7- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 
-Si, porque el commit realizado desde la rama <title> quedaba como en “linea” a los commits de la rama <main>.
+Si, porque el commit realizado desde la rama <title> quedaba como en “linea” a los commits
+ de la rama <main>.
  
 8- ¿Qué comando o comandos utilizaste en el paso 27?
 
@@ -41,10 +42,11 @@ Utilicé el comando que me sugirió git:* git restore git-nuestro.md*
 10- ¿Qué comando o comandos utilizaste en el paso 29?
 
 Para eliminar utilicé el comando *git branch -D title*
+
 11- ¿Qué comando o comandos utilizaste en el paso 30?
 
-Comandos para volver al merge: *git reflog* (copio el identificador del commit del merge) y
- *git reset --hard <num identif. del commit>*
+Comandos para volver al merge: *git reflog* (copio el identificador del commit del merge)
+ y *git reset --hard <num identif. del commit>*
 
 12- ¿Qué comando o comandos usaste en el paso 32?
 
@@ -52,5 +54,5 @@ Comandos para volver al merge: *git reflog* (copio el identificador del commit d
 
 13- ¿Qué comando o comandos usaste en el punto 33?
 
-*git checkout <num de identif. de cuando le puse el titulo al poema>*
+*git checkout \<num de identif. de cuando le puse el titulo al poema\>*
 
