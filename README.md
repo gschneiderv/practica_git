@@ -6,7 +6,7 @@ Utilicé el comando *git reset --hard HEAD~1* porque deshace el commit  modifica
 
 2- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 
-Con el comando *git reflog* copié el identificador del commit que deshice, y luego ejecuté el comando *git reset --hard <ident.commit>. Asi se recuperan archivos borrados o,como en este caso, archivos modificados.
+Con el comando *git reflog* copié el identificador del commit que deshice, y luego ejecuté el comando *git reset --hard <ident.commit>*. Asi se recuperan archivos borrados o,como en este caso, archivos modificados.
 
 3- El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
 
@@ -37,7 +37,7 @@ Para deshacer el merge sin perder los cambios en el working copy usé *git reset
 
 9- ¿Qué comando o comandos utilizaste en el paso 28?
 
-Utilicé el comando que me sugirió git:* git restore git-nuestro.md*
+Utilicé el comando que me sugirió git: *git restore git-nuestro.md*
 
 10- ¿Qué comando o comandos utilizaste en el paso 29?
 
